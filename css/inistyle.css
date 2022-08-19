@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    border: 1px solid black;
+}
+#banner {
+    border: 1px solid black;
+    height: 50vh;
+    text-align: center;
+    line-height: 50vh;
+}
+/*#texto{
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+}*/
