@@ -1,0 +1,47 @@
+#menuSuperior {
+    border: 1px solid black;
+}
+#miniLogo {
+    height: 80px;
+    width: 80px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+    margin: 10px;
+}
+nav{
+    display: inline-block;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+}
+#carrinho{
+    float: right;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+#destaque{
+    border: 1px solid black;
+    margin: 50px 0px;
+    height: 180px;
+    text-align: center;
+    position: relative;
+}
+#emDestaque{
+    position: absolute;
+    bottom: 0;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    border-radius: 50%;
+}
