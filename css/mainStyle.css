@@ -1,7 +1,7 @@
 #menuSuperior {
     border: 1px solid black;
 }
-#miniLogo {
+#miniLogoHeader {
     height: 80px;
     width: 80px;
     background-color: grey;
@@ -11,13 +11,13 @@
     line-height: 80px;
     margin: 10px;
 }
-nav{
+#navHeader{
     display: inline-block;
 }
-li{
+#navHeader li{
     display: inline;
 }
-li a{
+#navHeader li a{
     text-decoration: none;
 }
 #carrinho{
@@ -54,6 +54,7 @@ li a{
 #recentes{
     border: 1px solid black;
     padding: 20px;
+    margin: 50px 0;
 }
 .pedidoRecente{
     display: inline-block;
@@ -64,4 +65,49 @@ li a{
     width: 100%;
     display: inline-block;
     height: 12em;
+}
+
+#categorias{
+    border: solid 1px black;
+    padding: 20px;
+    margin: 50px 0;
+}
+.categoria{
+    border: solid 1px black;
+    width: 24%;
+    display: inline-block;
+    height: 12em;
+}
+
+footer{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+}
+#footerLogoConteiner{
+    position: relative;
+    border: 1px solid black;
+    align-self: start;
+}
+#miniLogoFooter {
+    height: 80px;
+    width: 80px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+    margin: 10px;
+}
+.footerConteiner{
+    border: 1px solid black;
+    width: 24%;
+    display: inline-block;
+}
+.navFooter ul li a{
+    text-decoration: none;
+}
+.navFooter ul{
+    list-style: none;
+    padding: 0;
 }
