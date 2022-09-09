@@ -1,0 +1,29 @@
+#produto{
+    border: solid 1px black;
+    padding: 20px;
+}
+#quadroProduto{
+    border: solid 1px black;
+    width: 45%;
+    display: inline-block;
+    height: 25em;
+}
+#dadosProduto{
+    border: solid 1px black;
+    width: 45%;
+    height: 25em;
+    float: right;
+}
+#adicionarButton{
+    border: solid 1px black;
+    padding: 20px;
+    display: inline-block;
+    background-color: lightgray;
+}
+
+#similares{
+    border: solid 1px black;
+}
+#produtoSimilar{
+    border: solid 1px black;
+}
