@@ -1,0 +1,35 @@
+#contents{
+    border: solid black 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+#filtros{
+    border: solid 1px black;
+    padding: 10px;
+    margin: 20px;
+}
+#filtrosNav ul{
+    list-style-type: none;
+    padding: 0;
+}
+#filtrosNav a{
+    text-decoration: none;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    float: right;
+}
+
+#produtos{
+    border: solid black 1px;
+    margin: 20px;
+    grid-column: span 2;
+}
