@@ -1,0 +1,17 @@
+#menuCarrinhoEndPag{
+    border: solid 1px black;
+}
+#menuCarrinhoEndPag ul{
+    border: solid 1px black;
+    width: fit-content;
+    margin: auto;
+    padding: 0;
+}
+#menuCarrinhoEndPag nav{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#menuCarrinhoEndPag li{
+    display: inline;
+    margin: 100px;
+}
