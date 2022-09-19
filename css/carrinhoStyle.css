@@ -1,10 +1,24 @@
 #contents{
-    border: solid 1px black;
     height: 30em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 #contador{
-    border: solid 1px black;
     grid-column: span 3;
+}
+.item{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 10px;
+}
+.fotoItem{
+    border: solid 1px black;
+    height: 9em;
+}
+.infoItem{
+    padding-left: 15px;
+}
+#resumo{
+    border-left: 1px solid black;
+    padding-left: 20px;
 }
