@@ -1,0 +1,9 @@
+#resumo{
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+#contents{
+    height: 30em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
