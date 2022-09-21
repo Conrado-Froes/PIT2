@@ -1,0 +1,14 @@
+#pagamento{
+    border: solid 1px black;
+    grid-column: span 3;
+    padding-left: 70px;
+    padding-top: 60px;
+    padding-right: 150px;
+    height: fit-content;
+}
+.opcaoPagamento{
+    border: solid 1px black;
+    display: inline-block;
+    width: 100%;
+    padding: 30px;
+}
