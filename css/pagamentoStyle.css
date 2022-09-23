@@ -1,10 +1,10 @@
 #pagamento{
-    border: solid 1px black;
+    
     grid-column: span 3;
     padding-left: 70px;
     padding-top: 60px;
     padding-right: 150px;
-    height: fit-content;
+    padding-bottom: 60px;
 }
 .opcaoPagamento{
     border: solid 1px black;

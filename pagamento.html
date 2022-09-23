@@ -43,6 +43,7 @@
                 <input type="radio" id="cartao" name="opcao" value="cartao" checked>
                 <label for="cartao">Cartão de crédito</label>
                 <form>
+                    <br>
                     <label for="numeroCartao">Número do Cartão</label><br>
                     <input type="text" id="numeroCartao" name="numeroCartao" maxlength="16"><br>
                     <label for="validade">Validade</label><br>
@@ -61,8 +62,20 @@
             </span><br><br>
             <span class="opcaoPagamento">
                 <input type="radio" id="naEntrega" name="opcao" value="naEntrega">
-                <label for="naEntrega">Na entrega</label>
+                <label for="naEntrega">Na entrega</label><br><br>
+
+                <form>
+                    <input type="radio" id="dinheiro" name="opcaoNaEntrega" value="dinheiro" checked>
+                    <label for="dinheiro">Dinheiro</label><br>
+                    <input type="radio" id="credito" name="opcaoNaEntrega" value="credito">
+                    <label for="credito">Cartão de crédito</label><br>
+                    <input type="radio" id="debito" name="opcaoNaEntrega" value="debito">
+                    <label for="debito">Cartão de débito</label><br>
+                    <input type="radio" id="pixEntrega" name="opcaoNaEntrega" value="pixEntrega">
+                    <label for="pixEntrega">PIX</label>
+                </form>
             </span>
+            <br><br><input type="submit" value="Confirmar">
         </div>
 
         <div id="resumo">
