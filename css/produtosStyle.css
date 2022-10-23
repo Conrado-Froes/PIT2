@@ -27,6 +27,12 @@
     -webkit-transform: rotate(45deg);
     float: right;
 }
+#categoriasOculto{
+    display: none;
+}
+#precoOculto{
+    display: none;
+}
 
 #produtos{
     margin: 20px;

@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/mainStyle.css">
     <link rel="stylesheet" href="css/produtosStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/categorias.js"></script>
 </head>
 <body>
     <div id="menuSuperior">
@@ -29,11 +30,29 @@
             <hr>
             <nav id="filtrosNav">
                 <ul>
-                    <li><a href="#">Categorias<i class="arrow"></i></a></li>
+                    <li>
+                        <span onclick="mostrarCatOculto()">Categorias<i class="arrow"></i></span>
+                        <ul id="categoriasOculto">
+                            <br>
+                            <li>Cafés</li>
+                            <li>Doces</li>
+                            <li>Salgados</li>
+                            <li>Chocolates</li>
+                            <br>
+                        </ul>
+                    </li>
                     <hr>
-                    <li><a href="#">Preços<i class="arrow"></i></a></li>
+                    <li>
+                        <span onclick="mostrarPrecoOculto()">Preços<i class="arrow"></i></span>
+                        <ul id="precoOculto">
+                            <br>
+                            <li>Maior para o menor</li>
+                            <li>Menor para o maior</li>
+                            <br>
+                        </ul>
+                    </li>
                     <hr>
-                    <li><a href="#">Mais vendidos<i class="arrow"></i></a></li>
+                    <li><a href="#">Mais vendidos</a></li>
                 </ul>
             </nav>
         </div>
