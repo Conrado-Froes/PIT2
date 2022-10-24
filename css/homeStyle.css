@@ -49,4 +49,14 @@
     height: 12em;
     text-align: center;
     text-decoration: none;
+    position: relative;
+    color: black;
+}
+.imagem{
+    max-width: 100%;
+    max-height: 100%;
+}
+.textoCategoria{
+    position: absolute;
+    top: 4px;
 }
