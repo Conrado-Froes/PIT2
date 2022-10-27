@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/resumoStyle.css">
     <link rel="stylesheet" href="css/pagamentoStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <div id="menuSuperior">
@@ -39,8 +40,8 @@
 
     <div id="contents">
         <div id="pagamento">
-            <span class="opcaoPagamento">
-                <input type="radio" id="cartao" name="opcao" value="cartao" checked>
+            <span class="opcaoPagamento" id="opcaoCartao">
+                <input type="radio" id="cartao" name="opcao" value="cartao" checked onclick="selecionarCartao()">
                 <label for="cartao">Cartão de crédito</label>
                 <form>
                     <br>
@@ -56,11 +57,11 @@
                     <input type="text" name="nome" id="nome">
                 </form>
             </span><br><br>
-            <span class="opcaoPagamento">
+            <span class="opcaoPagamento" id="opcaoPix">
                 <input type="radio" id="pix" name="opcao" value="pix">
                 <label for="pix">PIX</label>
             </span><br><br>
-            <span class="opcaoPagamento">
+            <span class="opcaoPagamento" id="opcaoEntrega">
                 <input type="radio" id="naEntrega" name="opcao" value="naEntrega">
                 <label for="naEntrega">Na entrega</label><br><br>
 
