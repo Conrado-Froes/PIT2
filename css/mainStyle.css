@@ -1,6 +1,7 @@
-/*#menuSuperior {
-    border: 1px solid black;
-}*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #miniLogoHeader {
     height: 80px;
     width: 80px;
